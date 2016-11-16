@@ -67,6 +67,16 @@ F 3 "" H 1750 1150 60  0001 C CNN
 	1    1750 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 900  1950 1150
+Connection ~ 1950 900 
+Connection ~ 1950 1150
+Connection ~ 1350 900 
+Connection ~ 1550 1150
+Wire Wire Line
+	1550 1150 1250 1150
+Wire Wire Line
+	1350 900  1350 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C1DF8
@@ -89,6 +99,16 @@ F 3 "" H 1750 1750 60  0001 C CNN
 	1    1750 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 1500 1950 1750
+Connection ~ 1950 1500
+Connection ~ 1950 1750
+Connection ~ 1350 1500
+Connection ~ 1550 1750
+Wire Wire Line
+	1550 1750 1250 1750
+Wire Wire Line
+	1350 1500 1350 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C1F9F
@@ -111,6 +131,16 @@ F 3 "" H 1750 2350 60  0001 C CNN
 	1    1750 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 2100 1950 2350
+Connection ~ 1950 2100
+Connection ~ 1950 2350
+Connection ~ 1350 2100
+Connection ~ 1550 2350
+Wire Wire Line
+	1550 2350 1250 2350
+Wire Wire Line
+	1350 2100 1350 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C1FB2
@@ -133,6 +163,16 @@ F 3 "" H 1750 2950 60  0001 C CNN
 	1    1750 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 2700 1950 2950
+Connection ~ 1950 2700
+Connection ~ 1950 2950
+Connection ~ 1350 2700
+Connection ~ 1550 2950
+Wire Wire Line
+	1550 2950 1250 2950
+Wire Wire Line
+	1350 2700 1350 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C21B1
@@ -155,6 +195,16 @@ F 3 "" H 1750 3550 60  0001 C CNN
 	1    1750 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 3300 1950 3550
+Connection ~ 1950 3300
+Connection ~ 1950 3550
+Connection ~ 1350 3300
+Connection ~ 1550 3550
+Wire Wire Line
+	1550 3550 1250 3550
+Wire Wire Line
+	1350 3300 1350 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C21C4
@@ -177,6 +227,16 @@ F 3 "" H 1750 4150 60  0001 C CNN
 	1    1750 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 3900 1950 4150
+Connection ~ 1950 3900
+Connection ~ 1950 4150
+Connection ~ 1350 3900
+Connection ~ 1550 4150
+Wire Wire Line
+	1550 4150 1250 4150
+Wire Wire Line
+	1350 3900 1350 3700
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C277A
@@ -199,6 +259,16 @@ F 3 "" H 2550 1150 60  0001 C CNN
 	1    2550 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 900  2750 1150
+Connection ~ 2750 900 
+Connection ~ 2750 1150
+Connection ~ 2150 900 
+Connection ~ 2350 1150
+Wire Wire Line
+	2350 1150 2050 1150
+Wire Wire Line
+	2150 900  2150 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C278D
@@ -221,6 +291,16 @@ F 3 "" H 2550 1750 60  0001 C CNN
 	1    2550 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 1500 2750 1750
+Connection ~ 2750 1500
+Connection ~ 2750 1750
+Connection ~ 2150 1500
+Connection ~ 2350 1750
+Wire Wire Line
+	2350 1750 2050 1750
+Wire Wire Line
+	2150 1500 2150 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C27A0
@@ -243,6 +323,16 @@ F 3 "" H 2550 2350 60  0001 C CNN
 	1    2550 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 2100 2750 2350
+Connection ~ 2750 2100
+Connection ~ 2750 2350
+Connection ~ 2150 2100
+Connection ~ 2350 2350
+Wire Wire Line
+	2350 2350 2050 2350
+Wire Wire Line
+	2150 2100 2150 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C27B3
@@ -265,6 +355,16 @@ F 3 "" H 2550 2950 60  0001 C CNN
 	1    2550 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 2700 2750 2950
+Connection ~ 2750 2700
+Connection ~ 2750 2950
+Connection ~ 2150 2700
+Connection ~ 2350 2950
+Wire Wire Line
+	2350 2950 2050 2950
+Wire Wire Line
+	2150 2700 2150 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C27C6
@@ -287,6 +387,16 @@ F 3 "" H 2550 3550 60  0001 C CNN
 	1    2550 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 3300 2750 3550
+Connection ~ 2750 3300
+Connection ~ 2750 3550
+Connection ~ 2150 3300
+Connection ~ 2350 3550
+Wire Wire Line
+	2350 3550 2050 3550
+Wire Wire Line
+	2150 3300 2150 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C27D9
@@ -309,6 +419,16 @@ F 3 "" H 2550 4150 60  0001 C CNN
 	1    2550 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 3900 2750 4150
+Connection ~ 2750 3900
+Connection ~ 2750 4150
+Connection ~ 2150 3900
+Connection ~ 2350 4150
+Wire Wire Line
+	2350 4150 2050 4150
+Wire Wire Line
+	2150 3900 2150 3700
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2AD4
@@ -331,6 +451,16 @@ F 3 "" H 3350 1150 60  0001 C CNN
 	1    3350 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 900  3550 1150
+Connection ~ 3550 900 
+Connection ~ 3550 1150
+Connection ~ 2950 900 
+Connection ~ 3150 1150
+Wire Wire Line
+	3150 1150 2850 1150
+Wire Wire Line
+	2950 900  2950 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2AE7
@@ -353,6 +483,16 @@ F 3 "" H 3350 1750 60  0001 C CNN
 	1    3350 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 1500 3550 1750
+Connection ~ 3550 1500
+Connection ~ 3550 1750
+Connection ~ 2950 1500
+Connection ~ 3150 1750
+Wire Wire Line
+	3150 1750 2850 1750
+Wire Wire Line
+	2950 1500 2950 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2AFA
@@ -375,6 +515,16 @@ F 3 "" H 3350 2350 60  0001 C CNN
 	1    3350 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 2100 3550 2350
+Connection ~ 3550 2100
+Connection ~ 3550 2350
+Connection ~ 2950 2100
+Connection ~ 3150 2350
+Wire Wire Line
+	3150 2350 2850 2350
+Wire Wire Line
+	2950 2100 2950 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B0D
@@ -397,6 +547,16 @@ F 3 "" H 3350 2950 60  0001 C CNN
 	1    3350 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 2700 3550 2950
+Connection ~ 3550 2700
+Connection ~ 3550 2950
+Connection ~ 2950 2700
+Connection ~ 3150 2950
+Wire Wire Line
+	3150 2950 2850 2950
+Wire Wire Line
+	2950 2700 2950 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B20
@@ -419,6 +579,16 @@ F 3 "" H 3350 3550 60  0001 C CNN
 	1    3350 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 3300 3550 3550
+Connection ~ 3550 3300
+Connection ~ 3550 3550
+Connection ~ 2950 3300
+Connection ~ 3150 3550
+Wire Wire Line
+	3150 3550 2850 3550
+Wire Wire Line
+	2950 3300 2950 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B33
@@ -441,6 +611,16 @@ F 3 "" H 3350 4150 60  0001 C CNN
 	1    3350 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 3900 3550 4150
+Connection ~ 3550 3900
+Connection ~ 3550 4150
+Connection ~ 2950 3900
+Connection ~ 3150 4150
+Wire Wire Line
+	3150 4150 2850 4150
+Wire Wire Line
+	2950 3900 2950 3700
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B46
@@ -463,6 +643,16 @@ F 3 "" H 4150 1150 60  0001 C CNN
 	1    4150 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 900  4350 1150
+Connection ~ 4350 900 
+Connection ~ 4350 1150
+Connection ~ 3750 900 
+Connection ~ 3950 1150
+Wire Wire Line
+	3950 1150 3650 1150
+Wire Wire Line
+	3750 900  3750 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B59
@@ -485,6 +675,16 @@ F 3 "" H 4150 1750 60  0001 C CNN
 	1    4150 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 1500 4350 1750
+Connection ~ 4350 1500
+Connection ~ 4350 1750
+Connection ~ 3750 1500
+Connection ~ 3950 1750
+Wire Wire Line
+	3950 1750 3650 1750
+Wire Wire Line
+	3750 1500 3750 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B6C
@@ -507,6 +707,16 @@ F 3 "" H 4150 2350 60  0001 C CNN
 	1    4150 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 2100 4350 2350
+Connection ~ 4350 2100
+Connection ~ 4350 2350
+Connection ~ 3750 2100
+Connection ~ 3950 2350
+Wire Wire Line
+	3950 2350 3650 2350
+Wire Wire Line
+	3750 2100 3750 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B7F
@@ -529,6 +739,16 @@ F 3 "" H 4150 2950 60  0001 C CNN
 	1    4150 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 2700 4350 2950
+Connection ~ 4350 2700
+Connection ~ 4350 2950
+Connection ~ 3750 2700
+Connection ~ 3950 2950
+Wire Wire Line
+	3950 2950 3650 2950
+Wire Wire Line
+	3750 2700 3750 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2B92
@@ -551,6 +771,16 @@ F 3 "" H 4150 3550 60  0001 C CNN
 	1    4150 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 3300 4350 3550
+Connection ~ 4350 3300
+Connection ~ 4350 3550
+Connection ~ 3750 3300
+Connection ~ 3950 3550
+Wire Wire Line
+	3950 3550 3650 3550
+Wire Wire Line
+	3750 3300 3750 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2BA5
@@ -573,6 +803,16 @@ F 3 "" H 4150 4150 60  0001 C CNN
 	1    4150 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 3900 4350 4150
+Connection ~ 4350 3900
+Connection ~ 4350 4150
+Connection ~ 3750 3900
+Connection ~ 3950 4150
+Wire Wire Line
+	3950 4150 3650 4150
+Wire Wire Line
+	3750 3900 3750 3700
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E10
@@ -595,6 +835,16 @@ F 3 "" H 4950 1150 60  0001 C CNN
 	1    4950 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 900  5150 1150
+Connection ~ 5150 900 
+Connection ~ 5150 1150
+Connection ~ 4550 900 
+Connection ~ 4750 1150
+Wire Wire Line
+	4750 1150 4450 1150
+Wire Wire Line
+	4550 900  4550 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E23
@@ -617,6 +867,16 @@ F 3 "" H 4950 1750 60  0001 C CNN
 	1    4950 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 1500 5150 1750
+Connection ~ 5150 1500
+Connection ~ 5150 1750
+Connection ~ 4550 1500
+Connection ~ 4750 1750
+Wire Wire Line
+	4750 1750 4450 1750
+Wire Wire Line
+	4550 1500 4550 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E36
@@ -639,6 +899,16 @@ F 3 "" H 4950 2350 60  0001 C CNN
 	1    4950 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 2100 5150 2350
+Connection ~ 5150 2100
+Connection ~ 5150 2350
+Connection ~ 4550 2100
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4450 2350
+Wire Wire Line
+	4550 2100 4550 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E49
@@ -661,6 +931,16 @@ F 3 "" H 4950 2950 60  0001 C CNN
 	1    4950 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 2700 5150 2950
+Connection ~ 5150 2700
+Connection ~ 5150 2950
+Connection ~ 4550 2700
+Connection ~ 4750 2950
+Wire Wire Line
+	4750 2950 4450 2950
+Wire Wire Line
+	4550 2700 4550 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E5C
@@ -683,6 +963,16 @@ F 3 "" H 4950 3550 60  0001 C CNN
 	1    4950 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 3300 5150 3550
+Connection ~ 5150 3300
+Connection ~ 5150 3550
+Connection ~ 4550 3300
+Connection ~ 4750 3550
+Wire Wire Line
+	4750 3550 4450 3550
+Wire Wire Line
+	4550 3300 4550 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E6F
@@ -705,6 +995,16 @@ F 3 "" H 4950 4150 60  0001 C CNN
 	1    4950 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 3900 5150 4150
+Connection ~ 5150 3900
+Connection ~ 5150 4150
+Connection ~ 4550 3900
+Connection ~ 4750 4150
+Wire Wire Line
+	4750 4150 4450 4150
+Wire Wire Line
+	4550 3900 4550 3700
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E82
@@ -727,6 +1027,16 @@ F 3 "" H 5750 1150 60  0001 C CNN
 	1    5750 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 900  5950 1150
+Connection ~ 5950 900 
+Connection ~ 5950 1150
+Connection ~ 5350 900 
+Connection ~ 5550 1150
+Wire Wire Line
+	5550 1150 5250 1150
+Wire Wire Line
+	5350 900  5350 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2E95
@@ -749,6 +1059,16 @@ F 3 "" H 5750 1750 60  0001 C CNN
 	1    5750 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 1500 5950 1750
+Connection ~ 5950 1500
+Connection ~ 5950 1750
+Connection ~ 5350 1500
+Connection ~ 5550 1750
+Wire Wire Line
+	5550 1750 5250 1750
+Wire Wire Line
+	5350 1500 5350 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2EA8
@@ -771,6 +1091,16 @@ F 3 "" H 5750 2350 60  0001 C CNN
 	1    5750 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 2100 5950 2350
+Connection ~ 5950 2100
+Connection ~ 5950 2350
+Connection ~ 5350 2100
+Connection ~ 5550 2350
+Wire Wire Line
+	5550 2350 5250 2350
+Wire Wire Line
+	5350 2100 5350 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2EBB
@@ -793,6 +1123,16 @@ F 3 "" H 5750 2950 60  0001 C CNN
 	1    5750 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 2700 5950 2950
+Connection ~ 5950 2700
+Connection ~ 5950 2950
+Connection ~ 5350 2700
+Connection ~ 5550 2950
+Wire Wire Line
+	5550 2950 5250 2950
+Wire Wire Line
+	5350 2700 5350 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2ECE
@@ -815,6 +1155,16 @@ F 3 "" H 5750 3550 60  0001 C CNN
 	1    5750 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 3300 5950 3550
+Connection ~ 5950 3300
+Connection ~ 5950 3550
+Connection ~ 5350 3300
+Connection ~ 5550 3550
+Wire Wire Line
+	5550 3550 5250 3550
+Wire Wire Line
+	5350 3300 5350 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C2EE1
@@ -837,6 +1187,16 @@ F 3 "" H 5750 4150 60  0001 C CNN
 	1    5750 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5950 3900 5950 4150
+Connection ~ 5950 3900
+Connection ~ 5950 4150
+Connection ~ 5350 3900
+Connection ~ 5550 4150
+Wire Wire Line
+	5550 4150 5250 4150
+Wire Wire Line
+	5350 3900 5350 3700
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C30B0
@@ -859,6 +1219,16 @@ F 3 "" H 6550 1150 60  0001 C CNN
 	1    6550 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 900  6750 1150
+Connection ~ 6750 900 
+Connection ~ 6750 1150
+Connection ~ 6150 900 
+Connection ~ 6350 1150
+Wire Wire Line
+	6350 1150 6050 1150
+Wire Wire Line
+	6150 900  6150 700 
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C30C3
@@ -881,6 +1251,16 @@ F 3 "" H 6550 1750 60  0001 C CNN
 	1    6550 1750
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 1500 6750 1750
+Connection ~ 6750 1500
+Connection ~ 6750 1750
+Connection ~ 6150 1500
+Connection ~ 6350 1750
+Wire Wire Line
+	6350 1750 6050 1750
+Wire Wire Line
+	6150 1500 6150 1300
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C30D6
@@ -903,6 +1283,16 @@ F 3 "" H 6550 2350 60  0001 C CNN
 	1    6550 2350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 2100 6750 2350
+Connection ~ 6750 2100
+Connection ~ 6750 2350
+Connection ~ 6150 2100
+Connection ~ 6350 2350
+Wire Wire Line
+	6350 2350 6050 2350
+Wire Wire Line
+	6150 2100 6150 1900
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C30E9
@@ -925,6 +1315,16 @@ F 3 "" H 6550 2950 60  0001 C CNN
 	1    6550 2950
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 2700 6750 2950
+Connection ~ 6750 2700
+Connection ~ 6750 2950
+Connection ~ 6150 2700
+Connection ~ 6350 2950
+Wire Wire Line
+	6350 2950 6050 2950
+Wire Wire Line
+	6150 2700 6150 2500
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C30FC
@@ -947,6 +1347,16 @@ F 3 "" H 6550 3550 60  0001 C CNN
 	1    6550 3550
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 3300 6750 3550
+Connection ~ 6750 3300
+Connection ~ 6750 3550
+Connection ~ 6150 3300
+Connection ~ 6350 3550
+Wire Wire Line
+	6350 3550 6050 3550
+Wire Wire Line
+	6150 3300 6150 3100
 $Comp
 L SWITCH_PUSH SW?
 U 1 1 582C310F
@@ -969,416 +1379,6 @@ F 3 "" H 6550 4150 60  0001 C CNN
 	1    6550 4150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 900  1950 1150
-Connection ~ 1950 900 
-Connection ~ 1950 1150
-Connection ~ 1350 900 
-Connection ~ 1550 1150
-Wire Wire Line
-	1550 1150 1250 1150
-Wire Wire Line
-	1350 900  1350 700 
-Wire Wire Line
-	1950 1500 1950 1750
-Connection ~ 1950 1500
-Connection ~ 1950 1750
-Connection ~ 1350 1500
-Connection ~ 1550 1750
-Wire Wire Line
-	1550 1750 1250 1750
-Wire Wire Line
-	1350 1500 1350 1300
-Wire Wire Line
-	1950 2100 1950 2350
-Connection ~ 1950 2100
-Connection ~ 1950 2350
-Connection ~ 1350 2100
-Connection ~ 1550 2350
-Wire Wire Line
-	1550 2350 1250 2350
-Wire Wire Line
-	1350 2100 1350 1900
-Wire Wire Line
-	1950 2700 1950 2950
-Connection ~ 1950 2700
-Connection ~ 1950 2950
-Connection ~ 1350 2700
-Connection ~ 1550 2950
-Wire Wire Line
-	1550 2950 1250 2950
-Wire Wire Line
-	1350 2700 1350 2500
-Wire Wire Line
-	1950 3300 1950 3550
-Connection ~ 1950 3300
-Connection ~ 1950 3550
-Connection ~ 1350 3300
-Connection ~ 1550 3550
-Wire Wire Line
-	1550 3550 1250 3550
-Wire Wire Line
-	1350 3300 1350 3100
-Wire Wire Line
-	1950 3900 1950 4150
-Connection ~ 1950 3900
-Connection ~ 1950 4150
-Connection ~ 1350 3900
-Connection ~ 1550 4150
-Wire Wire Line
-	1550 4150 1250 4150
-Wire Wire Line
-	1350 3900 1350 3700
-Wire Wire Line
-	2750 900  2750 1150
-Connection ~ 2750 900 
-Connection ~ 2750 1150
-Connection ~ 2150 900 
-Connection ~ 2350 1150
-Wire Wire Line
-	2350 1150 2050 1150
-Wire Wire Line
-	2150 900  2150 700 
-Wire Wire Line
-	2750 1500 2750 1750
-Connection ~ 2750 1500
-Connection ~ 2750 1750
-Connection ~ 2150 1500
-Connection ~ 2350 1750
-Wire Wire Line
-	2350 1750 2050 1750
-Wire Wire Line
-	2150 1500 2150 1300
-Wire Wire Line
-	2750 2100 2750 2350
-Connection ~ 2750 2100
-Connection ~ 2750 2350
-Connection ~ 2150 2100
-Connection ~ 2350 2350
-Wire Wire Line
-	2350 2350 2050 2350
-Wire Wire Line
-	2150 2100 2150 1900
-Wire Wire Line
-	2750 2700 2750 2950
-Connection ~ 2750 2700
-Connection ~ 2750 2950
-Connection ~ 2150 2700
-Connection ~ 2350 2950
-Wire Wire Line
-	2350 2950 2050 2950
-Wire Wire Line
-	2150 2700 2150 2500
-Wire Wire Line
-	2750 3300 2750 3550
-Connection ~ 2750 3300
-Connection ~ 2750 3550
-Connection ~ 2150 3300
-Connection ~ 2350 3550
-Wire Wire Line
-	2350 3550 2050 3550
-Wire Wire Line
-	2150 3300 2150 3100
-Wire Wire Line
-	2750 3900 2750 4150
-Connection ~ 2750 3900
-Connection ~ 2750 4150
-Connection ~ 2150 3900
-Connection ~ 2350 4150
-Wire Wire Line
-	2350 4150 2050 4150
-Wire Wire Line
-	2150 3900 2150 3700
-Wire Wire Line
-	3550 900  3550 1150
-Connection ~ 3550 900 
-Connection ~ 3550 1150
-Connection ~ 2950 900 
-Connection ~ 3150 1150
-Wire Wire Line
-	3150 1150 2850 1150
-Wire Wire Line
-	2950 900  2950 700 
-Wire Wire Line
-	3550 1500 3550 1750
-Connection ~ 3550 1500
-Connection ~ 3550 1750
-Connection ~ 2950 1500
-Connection ~ 3150 1750
-Wire Wire Line
-	3150 1750 2850 1750
-Wire Wire Line
-	2950 1500 2950 1300
-Wire Wire Line
-	3550 2100 3550 2350
-Connection ~ 3550 2100
-Connection ~ 3550 2350
-Connection ~ 2950 2100
-Connection ~ 3150 2350
-Wire Wire Line
-	3150 2350 2850 2350
-Wire Wire Line
-	2950 2100 2950 1900
-Wire Wire Line
-	3550 2700 3550 2950
-Connection ~ 3550 2700
-Connection ~ 3550 2950
-Connection ~ 2950 2700
-Connection ~ 3150 2950
-Wire Wire Line
-	3150 2950 2850 2950
-Wire Wire Line
-	2950 2700 2950 2500
-Wire Wire Line
-	3550 3300 3550 3550
-Connection ~ 3550 3300
-Connection ~ 3550 3550
-Connection ~ 2950 3300
-Connection ~ 3150 3550
-Wire Wire Line
-	3150 3550 2850 3550
-Wire Wire Line
-	2950 3300 2950 3100
-Wire Wire Line
-	3550 3900 3550 4150
-Connection ~ 3550 3900
-Connection ~ 3550 4150
-Connection ~ 2950 3900
-Connection ~ 3150 4150
-Wire Wire Line
-	3150 4150 2850 4150
-Wire Wire Line
-	2950 3900 2950 3700
-Wire Wire Line
-	4350 900  4350 1150
-Connection ~ 4350 900 
-Connection ~ 4350 1150
-Connection ~ 3750 900 
-Connection ~ 3950 1150
-Wire Wire Line
-	3950 1150 3650 1150
-Wire Wire Line
-	3750 900  3750 700 
-Wire Wire Line
-	4350 1500 4350 1750
-Connection ~ 4350 1500
-Connection ~ 4350 1750
-Connection ~ 3750 1500
-Connection ~ 3950 1750
-Wire Wire Line
-	3950 1750 3650 1750
-Wire Wire Line
-	3750 1500 3750 1300
-Wire Wire Line
-	4350 2100 4350 2350
-Connection ~ 4350 2100
-Connection ~ 4350 2350
-Connection ~ 3750 2100
-Connection ~ 3950 2350
-Wire Wire Line
-	3950 2350 3650 2350
-Wire Wire Line
-	3750 2100 3750 1900
-Wire Wire Line
-	4350 2700 4350 2950
-Connection ~ 4350 2700
-Connection ~ 4350 2950
-Connection ~ 3750 2700
-Connection ~ 3950 2950
-Wire Wire Line
-	3950 2950 3650 2950
-Wire Wire Line
-	3750 2700 3750 2500
-Wire Wire Line
-	4350 3300 4350 3550
-Connection ~ 4350 3300
-Connection ~ 4350 3550
-Connection ~ 3750 3300
-Connection ~ 3950 3550
-Wire Wire Line
-	3950 3550 3650 3550
-Wire Wire Line
-	3750 3300 3750 3100
-Wire Wire Line
-	4350 3900 4350 4150
-Connection ~ 4350 3900
-Connection ~ 4350 4150
-Connection ~ 3750 3900
-Connection ~ 3950 4150
-Wire Wire Line
-	3950 4150 3650 4150
-Wire Wire Line
-	3750 3900 3750 3700
-Wire Wire Line
-	5150 900  5150 1150
-Connection ~ 5150 900 
-Connection ~ 5150 1150
-Connection ~ 4550 900 
-Connection ~ 4750 1150
-Wire Wire Line
-	4750 1150 4450 1150
-Wire Wire Line
-	4550 900  4550 700 
-Wire Wire Line
-	5150 1500 5150 1750
-Connection ~ 5150 1500
-Connection ~ 5150 1750
-Connection ~ 4550 1500
-Connection ~ 4750 1750
-Wire Wire Line
-	4750 1750 4450 1750
-Wire Wire Line
-	4550 1500 4550 1300
-Wire Wire Line
-	5150 2100 5150 2350
-Connection ~ 5150 2100
-Connection ~ 5150 2350
-Connection ~ 4550 2100
-Connection ~ 4750 2350
-Wire Wire Line
-	4750 2350 4450 2350
-Wire Wire Line
-	4550 2100 4550 1900
-Wire Wire Line
-	5150 2700 5150 2950
-Connection ~ 5150 2700
-Connection ~ 5150 2950
-Connection ~ 4550 2700
-Connection ~ 4750 2950
-Wire Wire Line
-	4750 2950 4450 2950
-Wire Wire Line
-	4550 2700 4550 2500
-Wire Wire Line
-	5150 3300 5150 3550
-Connection ~ 5150 3300
-Connection ~ 5150 3550
-Connection ~ 4550 3300
-Connection ~ 4750 3550
-Wire Wire Line
-	4750 3550 4450 3550
-Wire Wire Line
-	4550 3300 4550 3100
-Wire Wire Line
-	5150 3900 5150 4150
-Connection ~ 5150 3900
-Connection ~ 5150 4150
-Connection ~ 4550 3900
-Connection ~ 4750 4150
-Wire Wire Line
-	4750 4150 4450 4150
-Wire Wire Line
-	4550 3900 4550 3700
-Wire Wire Line
-	5950 900  5950 1150
-Connection ~ 5950 900 
-Connection ~ 5950 1150
-Connection ~ 5350 900 
-Connection ~ 5550 1150
-Wire Wire Line
-	5550 1150 5250 1150
-Wire Wire Line
-	5350 900  5350 700 
-Wire Wire Line
-	5950 1500 5950 1750
-Connection ~ 5950 1500
-Connection ~ 5950 1750
-Connection ~ 5350 1500
-Connection ~ 5550 1750
-Wire Wire Line
-	5550 1750 5250 1750
-Wire Wire Line
-	5350 1500 5350 1300
-Wire Wire Line
-	5950 2100 5950 2350
-Connection ~ 5950 2100
-Connection ~ 5950 2350
-Connection ~ 5350 2100
-Connection ~ 5550 2350
-Wire Wire Line
-	5550 2350 5250 2350
-Wire Wire Line
-	5350 2100 5350 1900
-Wire Wire Line
-	5950 2700 5950 2950
-Connection ~ 5950 2700
-Connection ~ 5950 2950
-Connection ~ 5350 2700
-Connection ~ 5550 2950
-Wire Wire Line
-	5550 2950 5250 2950
-Wire Wire Line
-	5350 2700 5350 2500
-Wire Wire Line
-	5950 3300 5950 3550
-Connection ~ 5950 3300
-Connection ~ 5950 3550
-Connection ~ 5350 3300
-Connection ~ 5550 3550
-Wire Wire Line
-	5550 3550 5250 3550
-Wire Wire Line
-	5350 3300 5350 3100
-Wire Wire Line
-	5950 3900 5950 4150
-Connection ~ 5950 3900
-Connection ~ 5950 4150
-Connection ~ 5350 3900
-Connection ~ 5550 4150
-Wire Wire Line
-	5550 4150 5250 4150
-Wire Wire Line
-	5350 3900 5350 3700
-Wire Wire Line
-	6750 900  6750 1150
-Connection ~ 6750 900 
-Connection ~ 6750 1150
-Connection ~ 6150 900 
-Connection ~ 6350 1150
-Wire Wire Line
-	6350 1150 6050 1150
-Wire Wire Line
-	6150 900  6150 700 
-Wire Wire Line
-	6750 1500 6750 1750
-Connection ~ 6750 1500
-Connection ~ 6750 1750
-Connection ~ 6150 1500
-Connection ~ 6350 1750
-Wire Wire Line
-	6350 1750 6050 1750
-Wire Wire Line
-	6150 1500 6150 1300
-Wire Wire Line
-	6750 2100 6750 2350
-Connection ~ 6750 2100
-Connection ~ 6750 2350
-Connection ~ 6150 2100
-Connection ~ 6350 2350
-Wire Wire Line
-	6350 2350 6050 2350
-Wire Wire Line
-	6150 2100 6150 1900
-Wire Wire Line
-	6750 2700 6750 2950
-Connection ~ 6750 2700
-Connection ~ 6750 2950
-Connection ~ 6150 2700
-Connection ~ 6350 2950
-Wire Wire Line
-	6350 2950 6050 2950
-Wire Wire Line
-	6150 2700 6150 2500
-Wire Wire Line
-	6750 3300 6750 3550
-Connection ~ 6750 3300
-Connection ~ 6750 3550
-Connection ~ 6150 3300
-Connection ~ 6350 3550
-Wire Wire Line
-	6350 3550 6050 3550
-Wire Wire Line
-	6150 3300 6150 3100
 Wire Wire Line
 	6750 3900 6750 4150
 Connection ~ 6750 3900
@@ -1472,30 +1472,4 @@ Connection ~ 6150 3100
 Connection ~ 6050 3550
 Connection ~ 6150 3700
 Connection ~ 6050 4150
-Wire Wire Line
-	6150 700  1350 700 
-Wire Wire Line
-	6150 1300 1350 1300
-Wire Wire Line
-	6150 1900 1350 1900
-Wire Wire Line
-	6150 2500 1350 2500
-Wire Wire Line
-	6150 3100 1350 3100
-Wire Wire Line
-	6150 3700 1350 3700
-Wire Wire Line
-	1250 4150 1250 1150
-Wire Wire Line
-	2050 4150 2050 1150
-Wire Wire Line
-	2850 4150 2850 1150
-Wire Wire Line
-	3650 4150 3650 1150
-Wire Wire Line
-	4450 4150 4450 1150
-Wire Wire Line
-	5250 4150 5250 1150
-Wire Wire Line
-	6050 4150 6050 1150
 $EndSCHEMATC

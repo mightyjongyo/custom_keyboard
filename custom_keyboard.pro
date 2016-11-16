@@ -1,4 +1,4 @@
-update=11/16/2016 12:32:22 AM
+update=11/16/2016 12:39:12 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../KiCAD-Keyboard-Tutorial
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=components
+LibName31=tutorial-cache
