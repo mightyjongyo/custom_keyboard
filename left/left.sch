@@ -1,0 +1,1665 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:components
+LIBS:tutorial-cache
+LIBS:left-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C1AD5
+P 2900 850
+F 0 "SW?" H 3050 960 50  0000 C CNN
+F 1 "ESC" H 2900 770 50  0000 C CNN
+F 2 "" H 2900 850 60  0001 C CNN
+F 3 "" H 2900 850 60  0001 C CNN
+	1    2900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C1B78
+P 3000 1100
+F 0 "D?" H 2900 1050 40  0000 C CNN
+F 1 "DIODE" H 3000 1150 40  0000 C CNN
+F 2 "" H 3000 1100 60  0001 C CNN
+F 3 "" H 3000 1100 60  0001 C CNN
+	1    3000 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C1DF8
+P 2900 1450
+F 0 "SW?" H 3050 1560 50  0000 C CNN
+F 1 "TILDE" H 2900 1370 50  0000 C CNN
+F 2 "" H 2900 1450 60  0001 C CNN
+F 3 "" H 2900 1450 60  0001 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C1DFE
+P 3000 1700
+F 0 "D?" H 2900 1650 40  0000 C CNN
+F 1 "DIODE" H 3000 1750 40  0000 C CNN
+F 2 "" H 3000 1700 60  0001 C CNN
+F 3 "" H 3000 1700 60  0001 C CNN
+	1    3000 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C1F9F
+P 2900 2050
+F 0 "SW?" H 3050 2160 50  0000 C CNN
+F 1 "TAB" H 2900 1970 50  0000 C CNN
+F 2 "" H 2900 2050 60  0001 C CNN
+F 3 "" H 2900 2050 60  0001 C CNN
+	1    2900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C1FA5
+P 3000 2300
+F 0 "D?" H 2900 2250 40  0000 C CNN
+F 1 "DIODE" H 3000 2350 40  0000 C CNN
+F 2 "" H 3000 2300 60  0001 C CNN
+F 3 "" H 3000 2300 60  0001 C CNN
+	1    3000 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C1FB2
+P 2900 2650
+F 0 "SW?" H 3050 2760 50  0000 C CNN
+F 1 "CAPS" H 2900 2570 50  0000 C CNN
+F 2 "" H 2900 2650 60  0001 C CNN
+F 3 "" H 2900 2650 60  0001 C CNN
+	1    2900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C1FB8
+P 3000 2900
+F 0 "D?" H 2900 2850 40  0000 C CNN
+F 1 "DIODE" H 3000 2950 40  0000 C CNN
+F 2 "" H 3000 2900 60  0001 C CNN
+F 3 "" H 3000 2900 60  0001 C CNN
+	1    3000 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C21B1
+P 2900 3250
+F 0 "SW?" H 3050 3360 50  0000 C CNN
+F 1 "LSHIFT" H 2900 3170 50  0000 C CNN
+F 2 "" H 2900 3250 60  0001 C CNN
+F 3 "" H 2900 3250 60  0001 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C21B7
+P 3000 3500
+F 0 "D?" H 2900 3450 40  0000 C CNN
+F 1 "DIODE" H 3000 3550 40  0000 C CNN
+F 2 "" H 3000 3500 60  0001 C CNN
+F 3 "" H 3000 3500 60  0001 C CNN
+	1    3000 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C21C4
+P 2900 3850
+F 0 "SW?" H 3050 3960 50  0000 C CNN
+F 1 "LCTL" H 2900 3770 50  0000 C CNN
+F 2 "" H 2900 3850 60  0001 C CNN
+F 3 "" H 2900 3850 60  0001 C CNN
+	1    2900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C21CA
+P 3000 4100
+F 0 "D?" H 2900 4050 40  0000 C CNN
+F 1 "DIODE" H 3000 4150 40  0000 C CNN
+F 2 "" H 3000 4100 60  0001 C CNN
+F 3 "" H 3000 4100 60  0001 C CNN
+	1    3000 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C277A
+P 3700 850
+F 0 "SW?" H 3850 960 50  0000 C CNN
+F 1 "F1" H 3700 770 50  0000 C CNN
+F 2 "" H 3700 850 60  0001 C CNN
+F 3 "" H 3700 850 60  0001 C CNN
+	1    3700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2780
+P 3800 1100
+F 0 "D?" H 3700 1050 40  0000 C CNN
+F 1 "DIODE" H 3800 1150 40  0000 C CNN
+F 2 "" H 3800 1100 60  0001 C CNN
+F 3 "" H 3800 1100 60  0001 C CNN
+	1    3800 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C27D9
+P 3700 3850
+F 0 "SW?" H 3850 3960 50  0000 C CNN
+F 1 "LMETA'" H 3700 3770 50  0000 C CNN
+F 2 "" H 3700 3850 60  0001 C CNN
+F 3 "" H 3700 3850 60  0001 C CNN
+	1    3700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C27DF
+P 3800 4100
+F 0 "D?" H 3700 4050 40  0000 C CNN
+F 1 "DIODE" H 3800 4150 40  0000 C CNN
+F 2 "" H 3800 4100 60  0001 C CNN
+F 3 "" H 3800 4100 60  0001 C CNN
+	1    3800 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2AD4
+P 4500 850
+F 0 "SW?" H 4650 960 50  0000 C CNN
+F 1 "F2" H 4500 770 50  0000 C CNN
+F 2 "" H 4500 850 60  0001 C CNN
+F 3 "" H 4500 850 60  0001 C CNN
+	1    4500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2ADA
+P 4600 1100
+F 0 "D?" H 4500 1050 40  0000 C CNN
+F 1 "DIODE" H 4600 1150 40  0000 C CNN
+F 2 "" H 4600 1100 60  0001 C CNN
+F 3 "" H 4600 1100 60  0001 C CNN
+	1    4600 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2AE7
+P 4500 1450
+F 0 "SW?" H 4650 1560 50  0000 C CNN
+F 1 "2" H 4500 1370 50  0000 C CNN
+F 2 "" H 4500 1450 60  0001 C CNN
+F 3 "" H 4500 1450 60  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2AED
+P 4600 1700
+F 0 "D?" H 4500 1650 40  0000 C CNN
+F 1 "DIODE" H 4600 1750 40  0000 C CNN
+F 2 "" H 4600 1700 60  0001 C CNN
+F 3 "" H 4600 1700 60  0001 C CNN
+	1    4600 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2AFA
+P 4500 2050
+F 0 "SW?" H 4650 2160 50  0000 C CNN
+F 1 "Q" H 4500 1970 50  0000 C CNN
+F 2 "" H 4500 2050 60  0001 C CNN
+F 3 "" H 4500 2050 60  0001 C CNN
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B00
+P 4600 2300
+F 0 "D?" H 4500 2250 40  0000 C CNN
+F 1 "DIODE" H 4600 2350 40  0000 C CNN
+F 2 "" H 4600 2300 60  0001 C CNN
+F 3 "" H 4600 2300 60  0001 C CNN
+	1    4600 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B0D
+P 4500 2650
+F 0 "SW?" H 4650 2760 50  0000 C CNN
+F 1 "A" H 4500 2570 50  0000 C CNN
+F 2 "" H 4500 2650 60  0001 C CNN
+F 3 "" H 4500 2650 60  0001 C CNN
+	1    4500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B13
+P 4600 2900
+F 0 "D?" H 4500 2850 40  0000 C CNN
+F 1 "DIODE" H 4600 2950 40  0000 C CNN
+F 2 "" H 4600 2900 60  0001 C CNN
+F 3 "" H 4600 2900 60  0001 C CNN
+	1    4600 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B20
+P 4500 3250
+F 0 "SW?" H 4650 3360 50  0000 C CNN
+F 1 "Z" H 4500 3170 50  0000 C CNN
+F 2 "" H 4500 3250 60  0001 C CNN
+F 3 "" H 4500 3250 60  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B26
+P 4600 3500
+F 0 "D?" H 4500 3450 40  0000 C CNN
+F 1 "DIODE" H 4600 3550 40  0000 C CNN
+F 2 "" H 4600 3500 60  0001 C CNN
+F 3 "" H 4600 3500 60  0001 C CNN
+	1    4600 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B33
+P 4500 3850
+F 0 "SW?" H 4650 3960 50  0000 C CNN
+F 1 "LALT" H 4500 3770 50  0000 C CNN
+F 2 "" H 4500 3850 60  0001 C CNN
+F 3 "" H 4500 3850 60  0001 C CNN
+	1    4500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B39
+P 4600 4100
+F 0 "D?" H 4500 4050 40  0000 C CNN
+F 1 "DIODE" H 4600 4150 40  0000 C CNN
+F 2 "" H 4600 4100 60  0001 C CNN
+F 3 "" H 4600 4100 60  0001 C CNN
+	1    4600 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B46
+P 5300 850
+F 0 "SW?" H 5450 960 50  0000 C CNN
+F 1 "F3" H 5300 770 50  0000 C CNN
+F 2 "" H 5300 850 60  0001 C CNN
+F 3 "" H 5300 850 60  0001 C CNN
+	1    5300 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B4C
+P 5400 1100
+F 0 "D?" H 5300 1050 40  0000 C CNN
+F 1 "DIODE" H 5400 1150 40  0000 C CNN
+F 2 "" H 5400 1100 60  0001 C CNN
+F 3 "" H 5400 1100 60  0001 C CNN
+	1    5400 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B59
+P 5300 1450
+F 0 "SW?" H 5450 1560 50  0000 C CNN
+F 1 "3" H 5300 1370 50  0000 C CNN
+F 2 "" H 5300 1450 60  0001 C CNN
+F 3 "" H 5300 1450 60  0001 C CNN
+	1    5300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B5F
+P 5400 1700
+F 0 "D?" H 5300 1650 40  0000 C CNN
+F 1 "DIODE" H 5400 1750 40  0000 C CNN
+F 2 "" H 5400 1700 60  0001 C CNN
+F 3 "" H 5400 1700 60  0001 C CNN
+	1    5400 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B6C
+P 5300 2050
+F 0 "SW?" H 5450 2160 50  0000 C CNN
+F 1 "W" H 5300 1970 50  0000 C CNN
+F 2 "" H 5300 2050 60  0001 C CNN
+F 3 "" H 5300 2050 60  0001 C CNN
+	1    5300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B72
+P 5400 2300
+F 0 "D?" H 5300 2250 40  0000 C CNN
+F 1 "DIODE" H 5400 2350 40  0000 C CNN
+F 2 "" H 5400 2300 60  0001 C CNN
+F 3 "" H 5400 2300 60  0001 C CNN
+	1    5400 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B7F
+P 5300 2650
+F 0 "SW?" H 5450 2760 50  0000 C CNN
+F 1 "S" H 5300 2570 50  0000 C CNN
+F 2 "" H 5300 2650 60  0001 C CNN
+F 3 "" H 5300 2650 60  0001 C CNN
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B85
+P 5400 2900
+F 0 "D?" H 5300 2850 40  0000 C CNN
+F 1 "DIODE" H 5400 2950 40  0000 C CNN
+F 2 "" H 5400 2900 60  0001 C CNN
+F 3 "" H 5400 2900 60  0001 C CNN
+	1    5400 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2B92
+P 5300 3250
+F 0 "SW?" H 5450 3360 50  0000 C CNN
+F 1 "X" H 5300 3170 50  0000 C CNN
+F 2 "" H 5300 3250 60  0001 C CNN
+F 3 "" H 5300 3250 60  0001 C CNN
+	1    5300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2B98
+P 5400 3500
+F 0 "D?" H 5300 3450 40  0000 C CNN
+F 1 "DIODE" H 5400 3550 40  0000 C CNN
+F 2 "" H 5400 3500 60  0001 C CNN
+F 3 "" H 5400 3500 60  0001 C CNN
+	1    5400 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2BA5
+P 5300 3850
+F 0 "SW?" H 5450 3960 50  0000 C CNN
+F 1 "LSPC" H 5300 3770 50  0000 C CNN
+F 2 "" H 5300 3850 60  0001 C CNN
+F 3 "" H 5300 3850 60  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2BAB
+P 5400 4100
+F 0 "D?" H 5300 4050 40  0000 C CNN
+F 1 "DIODE" H 5400 4150 40  0000 C CNN
+F 2 "" H 5400 4100 60  0001 C CNN
+F 3 "" H 5400 4100 60  0001 C CNN
+	1    5400 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E10
+P 6100 850
+F 0 "SW?" H 6250 960 50  0000 C CNN
+F 1 "F4" H 6100 770 50  0000 C CNN
+F 2 "" H 6100 850 60  0001 C CNN
+F 3 "" H 6100 850 60  0001 C CNN
+	1    6100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E16
+P 6200 1100
+F 0 "D?" H 6100 1050 40  0000 C CNN
+F 1 "DIODE" H 6200 1150 40  0000 C CNN
+F 2 "" H 6200 1100 60  0001 C CNN
+F 3 "" H 6200 1100 60  0001 C CNN
+	1    6200 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E23
+P 6100 1450
+F 0 "SW?" H 6250 1560 50  0000 C CNN
+F 1 "4" H 6100 1370 50  0000 C CNN
+F 2 "" H 6100 1450 60  0001 C CNN
+F 3 "" H 6100 1450 60  0001 C CNN
+	1    6100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E29
+P 6200 1700
+F 0 "D?" H 6100 1650 40  0000 C CNN
+F 1 "DIODE" H 6200 1750 40  0000 C CNN
+F 2 "" H 6200 1700 60  0001 C CNN
+F 3 "" H 6200 1700 60  0001 C CNN
+	1    6200 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E36
+P 6100 2050
+F 0 "SW?" H 6250 2160 50  0000 C CNN
+F 1 "E" H 6100 1970 50  0000 C CNN
+F 2 "" H 6100 2050 60  0001 C CNN
+F 3 "" H 6100 2050 60  0001 C CNN
+	1    6100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E3C
+P 6200 2300
+F 0 "D?" H 6100 2250 40  0000 C CNN
+F 1 "DIODE" H 6200 2350 40  0000 C CNN
+F 2 "" H 6200 2300 60  0001 C CNN
+F 3 "" H 6200 2300 60  0001 C CNN
+	1    6200 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E49
+P 6100 2650
+F 0 "SW?" H 6250 2760 50  0000 C CNN
+F 1 "D" H 6100 2570 50  0000 C CNN
+F 2 "" H 6100 2650 60  0001 C CNN
+F 3 "" H 6100 2650 60  0001 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E4F
+P 6200 2900
+F 0 "D?" H 6100 2850 40  0000 C CNN
+F 1 "DIODE" H 6200 2950 40  0000 C CNN
+F 2 "" H 6200 2900 60  0001 C CNN
+F 3 "" H 6200 2900 60  0001 C CNN
+	1    6200 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E5C
+P 6100 3250
+F 0 "SW?" H 6250 3360 50  0000 C CNN
+F 1 "C" H 6100 3170 50  0000 C CNN
+F 2 "" H 6100 3250 60  0001 C CNN
+F 3 "" H 6100 3250 60  0001 C CNN
+	1    6100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E62
+P 6200 3500
+F 0 "D?" H 6100 3450 40  0000 C CNN
+F 1 "DIODE" H 6200 3550 40  0000 C CNN
+F 2 "" H 6200 3500 60  0001 C CNN
+F 3 "" H 6200 3500 60  0001 C CNN
+	1    6200 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E82
+P 6900 850
+F 0 "SW?" H 7050 960 50  0000 C CNN
+F 1 "F5" H 6900 770 50  0000 C CNN
+F 2 "" H 6900 850 60  0001 C CNN
+F 3 "" H 6900 850 60  0001 C CNN
+	1    6900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E88
+P 7000 1100
+F 0 "D?" H 6900 1050 40  0000 C CNN
+F 1 "DIODE" H 7000 1150 40  0000 C CNN
+F 2 "" H 7000 1100 60  0001 C CNN
+F 3 "" H 7000 1100 60  0001 C CNN
+	1    7000 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2E95
+P 6900 1450
+F 0 "SW?" H 7050 1560 50  0000 C CNN
+F 1 "5" H 6900 1370 50  0000 C CNN
+F 2 "" H 6900 1450 60  0001 C CNN
+F 3 "" H 6900 1450 60  0001 C CNN
+	1    6900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2E9B
+P 7000 1700
+F 0 "D?" H 6900 1650 40  0000 C CNN
+F 1 "DIODE" H 7000 1750 40  0000 C CNN
+F 2 "" H 7000 1700 60  0001 C CNN
+F 3 "" H 7000 1700 60  0001 C CNN
+	1    7000 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2EA8
+P 6900 2050
+F 0 "SW?" H 7050 2160 50  0000 C CNN
+F 1 "R" H 6900 1970 50  0000 C CNN
+F 2 "" H 6900 2050 60  0001 C CNN
+F 3 "" H 6900 2050 60  0001 C CNN
+	1    6900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2EAE
+P 7000 2300
+F 0 "D?" H 6900 2250 40  0000 C CNN
+F 1 "DIODE" H 7000 2350 40  0000 C CNN
+F 2 "" H 7000 2300 60  0001 C CNN
+F 3 "" H 7000 2300 60  0001 C CNN
+	1    7000 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2EBB
+P 6900 2650
+F 0 "SW?" H 7050 2760 50  0000 C CNN
+F 1 "F" H 6900 2570 50  0000 C CNN
+F 2 "" H 6900 2650 60  0001 C CNN
+F 3 "" H 6900 2650 60  0001 C CNN
+	1    6900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2EC1
+P 7000 2900
+F 0 "D?" H 6900 2850 40  0000 C CNN
+F 1 "DIODE" H 7000 2950 40  0000 C CNN
+F 2 "" H 7000 2900 60  0001 C CNN
+F 3 "" H 7000 2900 60  0001 C CNN
+	1    7000 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C2ECE
+P 6900 3250
+F 0 "SW?" H 7050 3360 50  0000 C CNN
+F 1 "V" H 6900 3170 50  0000 C CNN
+F 2 "" H 6900 3250 60  0001 C CNN
+F 3 "" H 6900 3250 60  0001 C CNN
+	1    6900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C2ED4
+P 7000 3500
+F 0 "D?" H 6900 3450 40  0000 C CNN
+F 1 "DIODE" H 7000 3550 40  0000 C CNN
+F 2 "" H 7000 3500 60  0001 C CNN
+F 3 "" H 7000 3500 60  0001 C CNN
+	1    7000 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C30B0
+P 7700 850
+F 0 "SW?" H 7850 960 50  0000 C CNN
+F 1 "F6" H 7700 770 50  0000 C CNN
+F 2 "" H 7700 850 60  0001 C CNN
+F 3 "" H 7700 850 60  0001 C CNN
+	1    7700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C30B6
+P 7800 1100
+F 0 "D?" H 7700 1050 40  0000 C CNN
+F 1 "DIODE" H 7800 1150 40  0000 C CNN
+F 2 "" H 7800 1100 60  0001 C CNN
+F 3 "" H 7800 1100 60  0001 C CNN
+	1    7800 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C30C3
+P 7700 1450
+F 0 "SW?" H 7850 1560 50  0000 C CNN
+F 1 "6" H 7700 1370 50  0000 C CNN
+F 2 "" H 7700 1450 60  0001 C CNN
+F 3 "" H 7700 1450 60  0001 C CNN
+	1    7700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C30C9
+P 7800 1700
+F 0 "D?" H 7700 1650 40  0000 C CNN
+F 1 "DIODE" H 7800 1750 40  0000 C CNN
+F 2 "" H 7800 1700 60  0001 C CNN
+F 3 "" H 7800 1700 60  0001 C CNN
+	1    7800 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C30D6
+P 7700 2050
+F 0 "SW?" H 7850 2160 50  0000 C CNN
+F 1 "T" H 7700 1970 50  0000 C CNN
+F 2 "" H 7700 2050 60  0001 C CNN
+F 3 "" H 7700 2050 60  0001 C CNN
+	1    7700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C30DC
+P 7800 2300
+F 0 "D?" H 7700 2250 40  0000 C CNN
+F 1 "DIODE" H 7800 2350 40  0000 C CNN
+F 2 "" H 7800 2300 60  0001 C CNN
+F 3 "" H 7800 2300 60  0001 C CNN
+	1    7800 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C30E9
+P 7700 2650
+F 0 "SW?" H 7850 2760 50  0000 C CNN
+F 1 "G" H 7700 2570 50  0000 C CNN
+F 2 "" H 7700 2650 60  0001 C CNN
+F 3 "" H 7700 2650 60  0001 C CNN
+	1    7700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C30EF
+P 7800 2900
+F 0 "D?" H 7700 2850 40  0000 C CNN
+F 1 "DIODE" H 7800 2950 40  0000 C CNN
+F 2 "" H 7800 2900 60  0001 C CNN
+F 3 "" H 7800 2900 60  0001 C CNN
+	1    7800 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C30FC
+P 7700 3250
+F 0 "SW?" H 7850 3360 50  0000 C CNN
+F 1 "B" H 7700 3170 50  0000 C CNN
+F 2 "" H 7700 3250 60  0001 C CNN
+F 3 "" H 7700 3250 60  0001 C CNN
+	1    7700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 582C3102
+P 7800 3500
+F 0 "D?" H 7700 3450 40  0000 C CNN
+F 1 "DIODE" H 7800 3550 40  0000 C CNN
+F 2 "" H 7800 3500 60  0001 C CNN
+F 3 "" H 7800 3500 60  0001 C CNN
+	1    7800 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L TEENSY2.0 U?
+U 1 1 582C56B9
+P 1250 2100
+F 0 "U?" V 1300 2100 60  0000 C CNN
+F 1 "TEENSY2.0" V 1200 2100 60  0000 C CNN
+F 2 "" H 1250 2100 60  0001 C CNN
+F 3 "" H 1250 2100 60  0001 C CNN
+	1    1250 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1850 1900
+$Comp
+L DIODE D?
+U 1 1 582C2793
+P 3800 1700
+F 0 "D?" H 3700 1650 40  0000 C CNN
+F 1 "DIODE" H 3800 1750 40  0000 C CNN
+F 2 "" H 3800 1700 60  0001 C CNN
+F 3 "" H 3800 1700 60  0001 C CNN
+	1    3800 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH_PUSH SW?
+U 1 1 582C278D
+P 3700 1450
+F 0 "SW?" H 3850 1560 50  0000 C CNN
+F 1 "1" H 3700 1370 50  0000 C CNN
+F 2 "" H 3700 1450 60  0001 C CNN
+F 3 "" H 3700 1450 60  0001 C CNN
+	1    3700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 850  3200 1100
+Connection ~ 3200 850 
+Connection ~ 3200 1100
+Connection ~ 2600 850 
+Connection ~ 2800 1100
+Wire Wire Line
+	2800 1100 2500 1100
+Wire Wire Line
+	2600 650  2600 850 
+Wire Wire Line
+	3200 1450 3200 1700
+Connection ~ 3200 1450
+Connection ~ 3200 1700
+Connection ~ 2600 1450
+Connection ~ 2800 1700
+Wire Wire Line
+	2800 1700 2500 1700
+Wire Wire Line
+	2600 1450 2600 1250
+Wire Wire Line
+	3200 2050 3200 2300
+Connection ~ 3200 2050
+Connection ~ 3200 2300
+Connection ~ 2600 2050
+Connection ~ 2800 2300
+Wire Wire Line
+	2500 2300 2800 2300
+Wire Wire Line
+	2600 2050 2600 1850
+Wire Wire Line
+	3200 2650 3200 2900
+Connection ~ 3200 2650
+Connection ~ 3200 2900
+Connection ~ 2600 2650
+Connection ~ 2800 2900
+Wire Wire Line
+	2500 2900 2800 2900
+Wire Wire Line
+	2600 2650 2600 2450
+Wire Wire Line
+	3200 3250 3200 3500
+Connection ~ 3200 3250
+Connection ~ 3200 3500
+Connection ~ 2600 3250
+Connection ~ 2800 3500
+Wire Wire Line
+	2500 3500 2800 3500
+Wire Wire Line
+	2600 3250 2600 3050
+Wire Wire Line
+	3200 3850 3200 4100
+Connection ~ 3200 3850
+Connection ~ 3200 4100
+Connection ~ 2600 3850
+Connection ~ 2800 4100
+Wire Wire Line
+	2500 1100 2500 1700
+Wire Wire Line
+	2500 1700 2500 2300
+Wire Wire Line
+	2500 2300 2500 2900
+Wire Wire Line
+	2500 2900 2500 3500
+Wire Wire Line
+	2500 3500 2500 4100
+Wire Wire Line
+	2500 4100 2500 4350
+Wire Wire Line
+	2500 4100 2800 4100
+Wire Wire Line
+	2600 3850 2600 3650
+Wire Wire Line
+	4000 850  4000 1100
+Connection ~ 4000 850 
+Connection ~ 4000 1100
+Connection ~ 3400 850 
+Connection ~ 3600 1100
+Wire Wire Line
+	3600 1100 3300 1100
+Wire Wire Line
+	3400 650  3400 850 
+Wire Wire Line
+	4000 3850 4000 4100
+Connection ~ 4000 3850
+Connection ~ 4000 4100
+Connection ~ 3400 3850
+Connection ~ 3600 4100
+Wire Wire Line
+	3300 4100 3600 4100
+Wire Wire Line
+	3400 3650 3400 3850
+Wire Wire Line
+	4800 850  4800 1100
+Connection ~ 4800 850 
+Connection ~ 4800 1100
+Connection ~ 4200 850 
+Connection ~ 4400 1100
+Wire Wire Line
+	4400 1100 4100 1100
+Wire Wire Line
+	4200 650  4200 850 
+Wire Wire Line
+	4800 1450 4800 1700
+Connection ~ 4800 1450
+Connection ~ 4800 1700
+Connection ~ 4200 1450
+Connection ~ 4400 1700
+Wire Wire Line
+	4400 1700 4100 1700
+Wire Wire Line
+	4200 1250 4200 1450
+Wire Wire Line
+	4800 2050 4800 2300
+Connection ~ 4800 2050
+Connection ~ 4800 2300
+Connection ~ 4200 2050
+Connection ~ 4400 2300
+Wire Wire Line
+	4100 2300 4400 2300
+Wire Wire Line
+	4200 1850 4200 2050
+Wire Wire Line
+	4800 2650 4800 2900
+Connection ~ 4800 2650
+Connection ~ 4800 2900
+Connection ~ 4200 2650
+Connection ~ 4400 2900
+Wire Wire Line
+	4100 2900 4400 2900
+Wire Wire Line
+	4200 2450 4200 2650
+Wire Wire Line
+	4800 3250 4800 3500
+Connection ~ 4800 3250
+Connection ~ 4800 3500
+Connection ~ 4200 3250
+Connection ~ 4400 3500
+Wire Wire Line
+	4100 3500 4400 3500
+Wire Wire Line
+	4200 3050 4200 3250
+Wire Wire Line
+	4800 3850 4800 4100
+Connection ~ 4800 3850
+Connection ~ 4800 4100
+Connection ~ 4200 3850
+Connection ~ 4400 4100
+Wire Wire Line
+	4100 4100 4400 4100
+Wire Wire Line
+	4200 3650 4200 3850
+Wire Wire Line
+	5600 850  5600 1100
+Connection ~ 5600 850 
+Connection ~ 5600 1100
+Connection ~ 5000 850 
+Connection ~ 5200 1100
+Wire Wire Line
+	5200 1100 4900 1100
+Wire Wire Line
+	5000 650  5000 850 
+Wire Wire Line
+	5600 1450 5600 1700
+Connection ~ 5600 1450
+Connection ~ 5600 1700
+Connection ~ 5000 1450
+Connection ~ 5200 1700
+Wire Wire Line
+	5200 1700 4900 1700
+Wire Wire Line
+	5000 1250 5000 1450
+Wire Wire Line
+	5600 2050 5600 2300
+Connection ~ 5600 2050
+Connection ~ 5600 2300
+Connection ~ 5000 2050
+Connection ~ 5200 2300
+Wire Wire Line
+	4900 2300 5200 2300
+Wire Wire Line
+	5000 1850 5000 2050
+Wire Wire Line
+	5600 2650 5600 2900
+Connection ~ 5600 2650
+Connection ~ 5600 2900
+Connection ~ 5000 2650
+Connection ~ 5200 2900
+Wire Wire Line
+	4900 2900 5200 2900
+Wire Wire Line
+	5000 2450 5000 2650
+Wire Wire Line
+	5600 3250 5600 3500
+Connection ~ 5600 3250
+Connection ~ 5600 3500
+Connection ~ 5000 3250
+Connection ~ 5200 3500
+Wire Wire Line
+	4900 3500 5200 3500
+Wire Wire Line
+	5000 3050 5000 3250
+Wire Wire Line
+	5600 3850 5600 4100
+Connection ~ 5600 3850
+Connection ~ 5600 4100
+Connection ~ 5000 3850
+Connection ~ 5200 4100
+Wire Wire Line
+	4900 4100 5200 4100
+Wire Wire Line
+	5000 3650 5000 3850
+Wire Wire Line
+	6400 850  6400 1100
+Connection ~ 6400 850 
+Connection ~ 6400 1100
+Connection ~ 5800 850 
+Connection ~ 6000 1100
+Wire Wire Line
+	6000 1100 5700 1100
+Wire Wire Line
+	5800 650  5800 850 
+Wire Wire Line
+	6400 1450 6400 1700
+Connection ~ 6400 1450
+Connection ~ 6400 1700
+Connection ~ 5800 1450
+Connection ~ 6000 1700
+Wire Wire Line
+	6000 1700 5700 1700
+Wire Wire Line
+	5800 1250 5800 1450
+Wire Wire Line
+	6400 2050 6400 2300
+Connection ~ 6400 2050
+Connection ~ 6400 2300
+Connection ~ 5800 2050
+Connection ~ 6000 2300
+Wire Wire Line
+	5700 2300 6000 2300
+Wire Wire Line
+	5800 1850 5800 2050
+Wire Wire Line
+	6400 2650 6400 2900
+Connection ~ 6400 2650
+Connection ~ 6400 2900
+Connection ~ 5800 2650
+Connection ~ 6000 2900
+Wire Wire Line
+	5700 2900 6000 2900
+Wire Wire Line
+	5800 2450 5800 2650
+Wire Wire Line
+	6400 3250 6400 3500
+Connection ~ 6400 3250
+Connection ~ 6400 3500
+Connection ~ 5800 3250
+Connection ~ 6000 3500
+Wire Wire Line
+	5700 3500 6000 3500
+Wire Wire Line
+	5800 3050 5800 3250
+Wire Wire Line
+	7200 850  7200 1100
+Connection ~ 7200 850 
+Connection ~ 7200 1100
+Connection ~ 6600 850 
+Connection ~ 6800 1100
+Wire Wire Line
+	6800 1100 6500 1100
+Wire Wire Line
+	6600 650  6600 850 
+Wire Wire Line
+	7200 1450 7200 1700
+Connection ~ 7200 1450
+Connection ~ 7200 1700
+Connection ~ 6600 1450
+Connection ~ 6800 1700
+Wire Wire Line
+	6800 1700 6500 1700
+Wire Wire Line
+	6600 1250 6600 1450
+Wire Wire Line
+	7200 2050 7200 2300
+Connection ~ 7200 2050
+Connection ~ 7200 2300
+Connection ~ 6600 2050
+Connection ~ 6800 2300
+Wire Wire Line
+	6500 2300 6800 2300
+Wire Wire Line
+	6600 1850 6600 2050
+Wire Wire Line
+	7200 2650 7200 2900
+Connection ~ 7200 2650
+Connection ~ 7200 2900
+Connection ~ 6600 2650
+Connection ~ 6800 2900
+Wire Wire Line
+	6500 2900 6800 2900
+Wire Wire Line
+	6600 2450 6600 2650
+Wire Wire Line
+	7200 3250 7200 3500
+Connection ~ 7200 3250
+Connection ~ 7200 3500
+Connection ~ 6600 3250
+Connection ~ 6800 3500
+Wire Wire Line
+	6500 3500 6800 3500
+Wire Wire Line
+	6600 3050 6600 3250
+Wire Wire Line
+	8000 850  8000 1100
+Connection ~ 8000 850 
+Connection ~ 8000 1100
+Connection ~ 7400 850 
+Connection ~ 7600 1100
+Wire Wire Line
+	7600 1100 7300 1100
+Wire Wire Line
+	7400 650  7400 850 
+Wire Wire Line
+	8000 1450 8000 1700
+Connection ~ 8000 1450
+Connection ~ 8000 1700
+Connection ~ 7400 1450
+Connection ~ 7600 1700
+Wire Wire Line
+	7600 1700 7300 1700
+Wire Wire Line
+	7400 1250 7400 1450
+Wire Wire Line
+	8000 2050 8000 2300
+Connection ~ 8000 2050
+Connection ~ 8000 2300
+Connection ~ 7400 2050
+Connection ~ 7600 2300
+Wire Wire Line
+	7300 2300 7600 2300
+Wire Wire Line
+	7400 1850 7400 2050
+Wire Wire Line
+	8000 2650 8000 2900
+Connection ~ 8000 2650
+Connection ~ 8000 2900
+Connection ~ 7400 2650
+Connection ~ 7600 2900
+Wire Wire Line
+	7300 2900 7600 2900
+Wire Wire Line
+	7400 2450 7400 2650
+Wire Wire Line
+	8000 3250 8000 3500
+Connection ~ 8000 3250
+Connection ~ 8000 3500
+Connection ~ 7400 3250
+Connection ~ 7600 3500
+Wire Wire Line
+	7300 3500 7600 3500
+Wire Wire Line
+	7400 3050 7400 3250
+Connection ~ 2600 650 
+Connection ~ 2500 1100
+Connection ~ 2600 1250
+Connection ~ 2500 1700
+Connection ~ 2500 2300
+Connection ~ 2600 1850
+Connection ~ 2500 2900
+Connection ~ 2600 2450
+Connection ~ 2600 3050
+Connection ~ 2500 3500
+Connection ~ 2600 3650
+Connection ~ 2500 4100
+Connection ~ 3400 650 
+Connection ~ 3300 1100
+Connection ~ 3300 1700
+Connection ~ 3300 2300
+Connection ~ 3300 2900
+Connection ~ 3300 3500
+Connection ~ 3400 3650
+Connection ~ 4200 3650
+Connection ~ 4100 3500
+Connection ~ 4100 4100
+Connection ~ 4200 3050
+Connection ~ 4100 2900
+Connection ~ 4200 2450
+Connection ~ 4100 2300
+Connection ~ 4200 1850
+Connection ~ 4100 1700
+Connection ~ 4200 1250
+Connection ~ 4100 1100
+Connection ~ 4200 650 
+Connection ~ 5000 650 
+Connection ~ 4900 1100
+Connection ~ 5000 1250
+Connection ~ 4900 1700
+Connection ~ 5000 1850
+Connection ~ 4900 2300
+Connection ~ 5000 2450
+Connection ~ 4900 2900
+Connection ~ 5000 3050
+Connection ~ 4900 3500
+Connection ~ 5000 3650
+Connection ~ 4900 4100
+Connection ~ 5800 650 
+Connection ~ 5700 1100
+Connection ~ 5800 1250
+Connection ~ 5700 1700
+Connection ~ 5800 1850
+Connection ~ 5700 2300
+Connection ~ 5800 2450
+Connection ~ 5700 2900
+Connection ~ 5800 3050
+Connection ~ 5700 3500
+Connection ~ 5700 4100
+Connection ~ 6500 3500
+Connection ~ 6600 3050
+Connection ~ 6500 2900
+Connection ~ 6600 2450
+Connection ~ 6500 2300
+Connection ~ 6600 1850
+Connection ~ 6500 1700
+Connection ~ 6600 1250
+Connection ~ 6500 1100
+Connection ~ 6600 650 
+Connection ~ 7400 650 
+Connection ~ 7300 1100
+Connection ~ 7400 1250
+Connection ~ 7300 1700
+Connection ~ 7400 1850
+Connection ~ 7300 2300
+Connection ~ 7400 2450
+Connection ~ 7300 2900
+Connection ~ 7400 3050
+Connection ~ 7300 3500
+Wire Wire Line
+	2250 650  2600 650 
+Wire Wire Line
+	2600 650  3400 650 
+Wire Wire Line
+	3400 650  4200 650 
+Wire Wire Line
+	4200 650  5000 650 
+Wire Wire Line
+	5000 650  5800 650 
+Wire Wire Line
+	5800 650  6600 650 
+Wire Wire Line
+	6600 650  7400 650 
+Wire Wire Line
+	2200 3650 2600 3650
+Wire Wire Line
+	2600 3650 3400 3650
+Wire Wire Line
+	3400 3650 4200 3650
+Wire Wire Line
+	4200 3650 5000 3650
+Wire Wire Line
+	3300 1100 3300 1700
+Wire Wire Line
+	3300 1700 3300 2300
+Wire Wire Line
+	3300 2300 3300 2900
+Wire Wire Line
+	3300 2900 3300 3500
+Wire Wire Line
+	3300 3500 3300 4100
+Wire Wire Line
+	3300 4100 3300 4350
+Wire Wire Line
+	4100 1100 4100 1700
+Wire Wire Line
+	4100 1700 4100 2300
+Wire Wire Line
+	4100 2300 4100 2900
+Wire Wire Line
+	4100 2900 4100 3500
+Wire Wire Line
+	4100 3500 4100 4100
+Wire Wire Line
+	4100 4100 4100 4350
+Wire Wire Line
+	4900 1100 4900 1700
+Wire Wire Line
+	4900 1700 4900 2300
+Wire Wire Line
+	4900 2300 4900 2900
+Wire Wire Line
+	4900 2900 4900 3500
+Wire Wire Line
+	4900 3500 4900 4100
+Wire Wire Line
+	4900 4100 4900 4350
+Wire Wire Line
+	5700 1100 5700 1700
+Wire Wire Line
+	5700 1700 5700 2300
+Wire Wire Line
+	5700 2300 5700 2900
+Wire Wire Line
+	5700 2900 5700 3500
+Wire Wire Line
+	5700 3500 5700 4100
+Wire Wire Line
+	5700 4100 5700 4350
+Connection ~ 1850 800 
+Connection ~ 1850 900 
+Connection ~ 1850 1000
+Connection ~ 1850 1100
+Connection ~ 1850 1200
+Connection ~ 1850 1300
+Connection ~ 1850 1400
+Connection ~ 1850 1500
+Connection ~ 1850 1650
+Connection ~ 1850 1750
+Connection ~ 1850 1900
+Connection ~ 2500 4350
+Connection ~ 3300 4100
+Connection ~ 3300 4350
+Connection ~ 4100 4350
+Connection ~ 1850 2000
+Connection ~ 1850 2100
+Connection ~ 3400 1850
+Wire Wire Line
+	2250 1850 2600 1850
+Wire Wire Line
+	2600 1850 3400 1850
+Wire Wire Line
+	3400 1850 4200 1850
+Wire Wire Line
+	4200 1850 5000 1850
+Wire Wire Line
+	5000 1850 5800 1850
+Wire Wire Line
+	5800 1850 6600 1850
+Wire Wire Line
+	6600 1850 7400 1850
+Wire Wire Line
+	2250 1250 2600 1250
+Wire Wire Line
+	2600 1250 3400 1250
+Wire Wire Line
+	3400 1250 4200 1250
+Wire Wire Line
+	4200 1250 5000 1250
+Wire Wire Line
+	5000 1250 5800 1250
+Wire Wire Line
+	5800 1250 6600 1250
+Wire Wire Line
+	6600 1250 7400 1250
+Connection ~ 3400 1250
+Wire Wire Line
+	3400 1250 3400 1450
+Wire Wire Line
+	3600 1700 3300 1700
+Connection ~ 3600 1700
+Connection ~ 3400 1450
+Connection ~ 4000 1700
+Connection ~ 4000 1450
+Wire Wire Line
+	4000 1450 4000 1700
+Wire Wire Line
+	2250 2450 2600 2450
+Wire Wire Line
+	2600 2450 4200 2450
+Wire Wire Line
+	4200 2450 5000 2450
+Wire Wire Line
+	5000 2450 5800 2450
+Wire Wire Line
+	5800 2450 6600 2450
+Wire Wire Line
+	6600 2450 7400 2450
+Wire Wire Line
+	2250 3050 2600 3050
+Wire Wire Line
+	2600 3050 4200 3050
+Wire Wire Line
+	4200 3050 5000 3050
+Wire Wire Line
+	5000 3050 5800 3050
+Wire Wire Line
+	5800 3050 6600 3050
+Wire Wire Line
+	6600 3050 7400 3050
+Wire Wire Line
+	6500 1100 6500 1700
+Wire Wire Line
+	6500 1700 6500 2300
+Wire Wire Line
+	6500 2300 6500 2900
+Wire Wire Line
+	6500 2900 6500 3500
+Wire Wire Line
+	6500 3500 6500 4350
+Connection ~ 6500 4350
+Wire Wire Line
+	7300 1100 7300 1700
+Wire Wire Line
+	7300 1700 7300 2300
+Wire Wire Line
+	7300 2300 7300 2900
+Wire Wire Line
+	7300 2900 7300 3500
+Wire Wire Line
+	7300 3500 7300 4300
+Text Label 1850 800  0    60   ~ 0
+ROW5
+Text Label 1850 900  0    60   ~ 0
+ROW4
+Text Label 1850 1000 0    60   ~ 0
+ROW3
+Text Label 1850 1100 0    60   ~ 0
+ROW2
+Text Label 1850 1200 0    60   ~ 0
+ROW1
+Text Label 1850 1300 0    60   ~ 0
+ROW0
+Text Label 1850 1400 0    60   ~ 0
+COL0
+Text Label 1850 1500 0    60   ~ 0
+COL1
+Text Label 1850 1650 0    60   ~ 0
+COL2
+Text Label 1850 1750 0    60   ~ 0
+COL3
+Text Label 1850 1900 0    60   ~ 0
+COL4
+Text Label 1850 2000 0    60   ~ 0
+COL5
+Text Label 1850 2100 0    60   ~ 0
+COL6
+$Comp
+L Earth #PWR?
+U 1 1 582D3467
+P 650 3350
+F 0 "#PWR?" H 650 3100 50  0001 C CNN
+F 1 "Earth" H 650 3200 50  0001 C CNN
+F 2 "" H 650 3350 50  0000 C CNN
+F 3 "" H 650 3350 50  0000 C CNN
+	1    650  3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 582D3645
+P 2350 6550
+F 0 "#PWR?" H 2350 6300 50  0001 C CNN
+F 1 "Earth" H 2350 6400 50  0001 C CNN
+F 2 "" H 2350 6550 50  0000 C CNN
+F 3 "" H 2350 6550 50  0000 C CNN
+	1    2350 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  2950 650  3050
+Wire Wire Line
+	650  3050 650  3350
+Connection ~ 650  3050
+$Comp
+L LED D?
+U 1 1 582D44A1
+P 1700 6550
+F 0 "D?" H 1700 6650 50  0000 C CNN
+F 1 "LED" H 1700 6450 50  0000 C CNN
+F 2 "" H 1700 6550 50  0000 C CNN
+F 3 "" H 1700 6550 50  0000 C CNN
+	1    1700 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 6550 2350 6550
+$Comp
+L RESISTOR R?
+U 1 1 582D4CA3
+P 1100 6550
+F 0 "R?" V 1100 6450 50  0000 C CNN
+F 1 "RESISTOR" V 1100 6650 50  0000 C CNN
+F 2 "" H 1100 6550 60  0001 C CNN
+F 3 "" H 1100 6550 60  0001 C CNN
+	1    1100 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 6550 1350 6550
+$Comp
+L Earth #PWR?
+U 1 1 582D5B59
+P 2350 7000
+F 0 "#PWR?" H 2350 6750 50  0001 C CNN
+F 1 "Earth" H 2350 6850 50  0001 C CNN
+F 2 "" H 2350 7000 50  0000 C CNN
+F 3 "" H 2350 7000 50  0000 C CNN
+	1    2350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 582D5B5F
+P 1700 7000
+F 0 "D?" H 1700 7100 50  0000 C CNN
+F 1 "LED" H 1700 6900 50  0000 C CNN
+F 2 "" H 1700 7000 50  0000 C CNN
+F 3 "" H 1700 7000 50  0000 C CNN
+	1    1700 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 7000 2350 7000
+$Comp
+L RESISTOR R?
+U 1 1 582D5B66
+P 1100 7000
+F 0 "R?" V 1100 6900 50  0000 C CNN
+F 1 "RESISTOR" V 1100 7100 50  0000 C CNN
+F 2 "" H 1100 7000 60  0001 C CNN
+F 3 "" H 1100 7000 60  0001 C CNN
+	1    1100 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 7000 1350 7000
+$Comp
+L Earth #PWR?
+U 1 1 582D5CA1
+P 2350 7350
+F 0 "#PWR?" H 2350 7100 50  0001 C CNN
+F 1 "Earth" H 2350 7200 50  0001 C CNN
+F 2 "" H 2350 7350 50  0000 C CNN
+F 3 "" H 2350 7350 50  0000 C CNN
+	1    2350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 582D5CA7
+P 1700 7350
+F 0 "D?" H 1700 7450 50  0000 C CNN
+F 1 "LED" H 1700 7250 50  0000 C CNN
+F 2 "" H 1700 7350 50  0000 C CNN
+F 3 "" H 1700 7350 50  0000 C CNN
+	1    1700 7350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 7350 2350 7350
+$Comp
+L RESISTOR R?
+U 1 1 582D5CAE
+P 1100 7350
+F 0 "R?" V 1100 7250 50  0000 C CNN
+F 1 "RESISTOR" V 1100 7450 50  0000 C CNN
+F 2 "" H 1100 7350 60  0001 C CNN
+F 3 "" H 1100 7350 60  0001 C CNN
+	1    1100 7350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 7350 1350 7350
+Connection ~ 850  6550
+Connection ~ 850  7000
+Connection ~ 850  7350
+Text Label 2500 4350 0    60   ~ 0
+COL0
+Text Label 3300 4350 0    60   ~ 0
+COL1
+Text Label 4100 4350 0    60   ~ 0
+COL2
+Text Label 4900 4350 0    60   ~ 0
+COL3
+Text Label 5700 4350 0    60   ~ 0
+COL4
+Text Label 6500 4350 0    60   ~ 0
+COL5
+Text Label 2200 3650 0    60   ~ 0
+ROW0
+Text Label 2250 3050 0    60   ~ 0
+ROW1
+Text Label 2250 2450 0    60   ~ 0
+ROW2
+Text Label 2250 1850 0    60   ~ 0
+ROW3
+Text Label 2250 1250 0    60   ~ 0
+ROW4
+Text Label 2250 650  0    60   ~ 0
+ROW5
+Text Label 7300 4300 0    60   ~ 0
+COL6
+Text Label 850  6550 0    60   ~ 0
+LED0
+Text Label 850  7000 0    60   ~ 0
+LED1
+Text Label 850  7350 0    60   ~ 0
+LED2
+Text Label 1850 2200 0    60   ~ 0
+LED0
+Text Label 1850 2300 0    60   ~ 0
+LED1
+Text Label 1850 2400 0    60   ~ 0
+LED2
+$Comp
+L JACK_TRS_6PINS J?
+U 1 1 582F6B03
+P 9850 1400
+F 0 "J?" H 9850 1800 50  0000 C CNN
+F 1 "JACK_TRS_6PINS" H 9800 1100 50  0000 C CNN
+F 2 "" H 9950 1250 50  0000 C CNN
+F 3 "" H 9950 1250 50  0000 C CNN
+	1    9850 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
